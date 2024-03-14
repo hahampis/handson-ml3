@@ -560,6 +560,22 @@ files = [
 six = "*"
 
 [[package]]
+name = "graphviz"
+version = "0.20.1"
+description = "Simple Python interface for Graphviz"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "graphviz-0.20.1-py3-none-any.whl", hash = "sha256:587c58a223b51611c0cf461132da386edd896a029524ca61a1462b880bf97977"},
+    {file = "graphviz-0.20.1.zip", hash = "sha256:8c58f14adaa3b947daf26c19bc1e98c4e0702cdc31cf99153e6f06904d492bf8"},
+]
+
+[package.extras]
+dev = ["flake8", "pep8-naming", "tox (>=3)", "twine", "wheel"]
+docs = ["sphinx (>=5)", "sphinx-autodoc-typehints", "sphinx-rtd-theme"]
+test = ["coverage", "mock (>=4)", "pytest (>=7)", "pytest-cov", "pytest-mock (>=3)"]
+
+[[package]]
 name = "grpcio"
 version = "1.60.1"
 description = "HTTP/2-based RPC framework"
@@ -2378,4 +2394,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10.7"
-content-hash = "0de37c881a686fcfcb5ff31c6228f772c1bc2b6a7d6615ece940ebc2e10b5835"
+content-hash = "0fb009190276e3c7b0c235a47ade8470d269e25543091fdf3fdc1949b13fb17c"
