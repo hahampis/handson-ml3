@@ -1622,6 +1622,25 @@ files = [
 ]
 
 [[package]]
+name = "pydot"
+version = "2.0.0"
+description = "Python interface to Graphviz's Dot"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pydot-2.0.0-py3-none-any.whl", hash = "sha256:408a47913ea7bd5d2d34b274144880c1310c4aee901f353cf21fe2e526a4ea28"},
+    {file = "pydot-2.0.0.tar.gz", hash = "sha256:60246af215123fa062f21cd791be67dda23a6f280df09f68919e637a1e4f3235"},
+]
+
+[package.dependencies]
+pyparsing = ">=3"
+
+[package.extras]
+dev = ["black", "chardet"]
+release = ["zest.releaser[recommended]"]
+tests = ["black", "chardet", "tox"]
+
+[[package]]
 name = "pygments"
 version = "2.17.2"
 description = "Pygments is a syntax highlighting package written in Python."
@@ -2394,4 +2413,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10.7"
-content-hash = "0fb009190276e3c7b0c235a47ade8470d269e25543091fdf3fdc1949b13fb17c"
+content-hash = "4b701e8d83abc22387906bc631a76d5345c118c6a38b3acbc09c2a8a6bf16752"

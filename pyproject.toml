@@ -17,6 +17,7 @@ pyarrow = "^15.0.0"
 matplotlib = "^3.8.2"
 scikit-learn = "^1.4.1.post1"
 graphviz = "^0.20.1"
+pydot = "^2.0.0"
 
 
 [build-system]
